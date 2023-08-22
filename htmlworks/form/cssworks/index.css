@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+     Verdana, sans-serif;
+}
+.heading{
+    color: white;
+}
+.heading2{
+    color: rgb(81, 239, 60);
+    text-decoration: underline;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+}
+p{
+    color: white;
+
+}
+
+.details p{
+    color: black;
+}
+.details{
+    width: 30%;
+    height: 270px;
+    background-color: white;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

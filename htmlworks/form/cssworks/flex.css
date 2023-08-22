@@ -1,0 +1,12 @@
+.one{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(110, 203, 247);
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}

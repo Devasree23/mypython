@@ -1,0 +1,19 @@
+.row{
+    width: 100%;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 3fr 1fr;
+    grid-gap: 10px;
+}
+
+.fluid{
+    grid-column-start: 1;
+    border: 1px solid black;
+
+    grid-column-end: 4;
+    background-color: aqua;
+}
+.grid_height{
+    background-color: blue;
+}
